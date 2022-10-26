@@ -1,0 +1,24 @@
+@import 'src/assets/css/variables';
+
+header{
+   .logo{
+    margin: 10px;
+        img{
+            max-width: 80px;
+        }
+    } 
+    
+    .mat-toolbar.mat-primary{
+        background-color: $green;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover,
+    a:active {
+        opacity: 0.9;
+    }
+}
